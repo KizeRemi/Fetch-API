@@ -1,0 +1,28 @@
+{
+  "name": "tooling",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src -d output",
+    "prepublish": "npm run build",
+    "flow": "flow"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-flow": "^6.23.0",
+    "eslint": "^4.8.0",
+    "eslint-config-airbnb-base": "^12.0.2",
+    "eslint-config-prettier": "^2.6.0",
+    "eslint-plugin-import": "^2.7.0",
+    "flow-bin": "^0.56.0",
+    "prettier": "^1.7.4",
+    "prettier-eslint": "^8.2.0"
+  },
+  "dependencies": {
+    "http-server": "^0.10.0"
+  }
+}
